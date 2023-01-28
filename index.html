@@ -1,0 +1,68 @@
+<html>
+	<head>
+	    <title>Mekton Initiative Tracker</title>
+	    <link rel="stylesheet" type="text/css" href="main.css">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+			rel="stylesheet"
+			integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+			integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+			crossorigin="anonymous"></script>
+	</head>
+	<body>
+        <div class='container'>
+    		<h1>Mekton Initiative Tracker</h1>
+    		<table id="encounter-member-list" cellspacing="0">
+    			<thead>
+    				<tr id="encounter-member-list-header">
+    					<th>Initiative</th>
+    					<th>Name</th>
+    					<th>Notes</th>
+						<th>Head</th>
+						<th>Torso</th>
+						<th>LeftArm</th>
+						<th>RightArm</th>
+						<th>LeftLeg</th>
+						<th>RightLeg</th>
+    					<th>&nbsp;</th>
+    				</tr>
+    			</thead>
+    			<tbody>
+    			<tr id="add-new-encounter-member">
+    				<td class="encounter-member-initiative">
+    					<input type="number" />
+    				</td>
+    				<td class="encounter-member-name">
+    					<input type="text" />
+    				</td>
+    				<td class="encounter-member-status">
+    					<input type="text" />
+    				</td>
+					<td class="encounter-member-head">
+    					<input type="text" />
+    				</td>
+					<td class="encounter-member-torso">
+    					<input type="text" />
+    				</td>
+					<td class="encounter-member-leftarm">
+    					<input type="text" />
+    				</td>
+					<td class="encounter-member-rightarm">
+    					<input type="text" />
+    				</td>
+					<td class="encounter-member-leftleg">
+    					<input type="text" />
+    				</td>
+					<td class="encounter-member-rightleg">
+    					<input type="text" />
+    				</td>
+    				<td class="encounter-member-add">
+    					<button id="add-member-button"><i class="fa fa-plus"></i> Add</button>
+    				</td>
+    			</tr>
+    			</tbody>
+    		</table>
+	    </div>
+		<script src="main.js"></script>
+	</body>
+</html>

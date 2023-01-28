@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+    padding: 0;
+}
+.topBar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #666;
+    background-color: #eeeeee;
+}
+.topBar li {
+    display: block;
+    padding: 0.25em 0.5em;
+}
+.topBar li.title {
+    background-color: #666;
+    color: white;
+}
+.topBar li.active {
+    font-weight: bold;
+}
+.topBar li.right {
+    flex-grow: 1;
+    text-align: right;
+}
+.container {
+    padding: 1em;
+    font-family: sans-serif;
+}
+
+h1, h3 {
+    text-align: center;
+}
+h1 {
+    margin-bottom: 0.5em;
+}
+h3 {
+    color: blue;
+    cursor: pointer;
+    font-size: 0.8em;
+}
+
+#encounter-member-list,
+#instructionsText {
+	width: 100%;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+#instructionsText {
+    font-size: 0.8em;
+    margin-bottom:2em;
+}
+
+#encounter-member-list-header th {
+	padding: 0.5em;
+}
+.encounter-member {
+	width: 100%;
+}
+#encounter-member-list td {
+	padding: 0.4em;
+	text-align: left;
+	border-top: 1px solid #ccc;
+}
+
+#add-new-encounter-member td {
+	text-align: center;
+}
+#encounter-member-list .encounter-member-initiative,
+#encounter-member-list .encounter-member-add,
+#encounter-member-list .encounter-member-remove {
+	text-align: center;
+}
+
+button {
+	border-radius: 0.5em;
+	padding: 0.5em 1em;
+	font-size: 0.8em;
+	cursor: pointer;
+}
+button#add-member-button{
+	background-color: #58D68D;
+	border-color: #28B463;
+}
+
+input {
+	padding: 0.5em;
+}
+
+.hidden {
+    display: none;
+}
